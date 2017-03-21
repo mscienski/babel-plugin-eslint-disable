@@ -7,7 +7,7 @@
     "lib"
   ],
   "scripts": {
-    "build": "rm -fr ./lib && NODE_ENV=production babel ./src --out-dir ./dist --plugins transform-es2015-modules-commonjs --presets es2015",
+    "build": "rm -fr ./lib && mkdir -p ./lib && NODE_ENV=production babel ./src --out-dir ./lib --plugins transform-es2015-modules-commonjs --presets es2015",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build"
   },
