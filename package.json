@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-eslint-disable",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A plugin to add eslint disable comments to the top of babel transpiled files",
   "main": "lib/index.js",
   "files": [
